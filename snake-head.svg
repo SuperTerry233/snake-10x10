@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="snake head">
+  <defs>
+    <linearGradient id="skin" x1="10" y1="10" x2="56" y2="54" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b7f38f"/>
+      <stop offset="1" stop-color="#38a858"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#skin)" d="M8 32C8 17 19 7 34 8c13 1 22 10 22 24S47 55 34 56C19 57 8 47 8 32Z"/>
+  <path fill="#2f8f49" d="M14 22c6-7 18-10 29-5-8-2-19 1-25 8-5 6-6 14-2 22-7-7-8-18-2-25Z" opacity=".45"/>
+  <circle cx="42" cy="22" r="5" fill="#f7fff4"/>
+  <circle cx="43.5" cy="22" r="2.2" fill="#17221a"/>
+  <circle cx="42" cy="42" r="5" fill="#f7fff4"/>
+  <circle cx="43.5" cy="42" r="2.2" fill="#17221a"/>
+  <path d="M55 32h7" stroke="#f05a72" stroke-width="3" stroke-linecap="round"/>
+  <path d="M62 32l-4-4M62 32l-4 4" stroke="#f05a72" stroke-width="2" stroke-linecap="round"/>
+</svg>
