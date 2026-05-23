@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>10x10 贪吃蛇</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-layout">
+      <main class="game-shell">
+        <section class="top-bar" aria-label="游戏状态">
+          <div>
+            <span class="label" data-i18n="labelApples">苹果</span>
+            <strong id="score">0 / 20</strong>
+          </div>
+          <div>
+            <span class="label" data-i18n="labelLength">长度</span>
+            <strong id="length">2 / 100</strong>
+          </div>
+          <div>
+            <span class="label" data-i18n="labelSpeed">速度</span>
+            <strong id="speed">慢</strong>
+          </div>
+        </section>
+
+        <section class="setup-panel" aria-label="游戏设置">
+          <div class="utility-row">
+            <span data-i18n="targetLabel">获胜目标</span>
+            <button id="language" type="button">English</button>
+          </div>
+
+          <div class="difficulty-group" role="radiogroup" aria-label="获胜目标">
+            <label>
+              <input type="radio" name="difficulty" value="20" checked />
+              <span data-i18n="goal20">20 个苹果</span>
+            </label>
+            <label>
+              <input type="radio" name="difficulty" value="50" />
+              <span data-i18n="goal50">50 个苹果</span>
+            </label>
+            <label>
+              <input type="radio" name="difficulty" value="infinite" />
+              <span data-i18n="goalInfinite">无限模式</span>
+            </label>
+          </div>
+          <div class="action-row">
+            <button id="start" type="button" data-i18n="start">开始游戏</button>
+            <button id="restart" type="button" data-i18n="reset">重置</button>
+          </div>
+        </section>
+
+        <section class="board-wrap">
+          <div id="board" class="board" aria-label="10乘10贪吃蛇游戏区域"></div>
+          <div id="message" class="message show" role="status">选择目标后点击开始</div>
+        </section>
+
+        <section class="controls" aria-label="方向控制">
+          <button type="button" data-dir="up">
+            <span>W</span>
+            <small>↑</small>
+          </button>
+          <div>
+            <button type="button" data-dir="left">
+              <span>A</span>
+              <small>←</small>
+            </button>
+            <button type="button" data-dir="down">
+              <span>S</span>
+              <small>↓</small>
+            </button>
+            <button type="button" data-dir="right">
+              <span>D</span>
+              <small>→</small>
+            </button>
+          </div>
+        </section>
+      </main>
+
+      <aside id="best-panel" class="record-panel" aria-live="polite" hidden>
+        <span class="label" data-i18n="bestTitle">无限模式最佳</span>
+        <strong id="best-record">0</strong>
+        <p data-i18n="bestUnit">最多吃到的苹果数</p>
+      </aside>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
