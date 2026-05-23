@@ -212,17 +212,17 @@ button.is-active:focus-visible {
 }
 
 .cell.snake::before {
-  background-image: url("./assets/snake-body.svg");
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><defs><radialGradient id="body" cx="31" cy="25" r="30" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="%23bdf58e"/><stop offset=".65" stop-color="%2355c569"/><stop offset="1" stop-color="%232f974f"/></radialGradient></defs><circle cx="32" cy="32" r="27" fill="url(%23body)"/><path fill="none" stroke="%23d9ffb0" stroke-width="5" stroke-linecap="round" opacity=".45" d="M20 20c9-7 22-5 28 4"/><circle cx="22" cy="40" r="4" fill="%233fa65a" opacity=".65"/><circle cx="36" cy="24" r="3" fill="%233fa65a" opacity=".55"/><circle cx="43" cy="42" r="3.5" fill="%233fa65a" opacity=".5"/></svg>');
 }
 
 .cell.head::before {
-  background-image: url("./assets/snake-head.svg");
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><defs><linearGradient id="skin" x1="10" y1="10" x2="56" y2="54" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="%23b7f38f"/><stop offset="1" stop-color="%2338a858"/></linearGradient></defs><path fill="url(%23skin)" d="M8 32C8 17 19 7 34 8c13 1 22 10 22 24S47 55 34 56C19 57 8 47 8 32Z"/><path fill="%232f8f49" d="M14 22c6-7 18-10 29-5-8-2-19 1-25 8-5 6-6 14-2 22-7-7-8-18-2-25Z" opacity=".45"/><circle cx="42" cy="22" r="5" fill="%23f7fff4"/><circle cx="43.5" cy="22" r="2.2" fill="%2317221a"/><circle cx="42" cy="42" r="5" fill="%23f7fff4"/><circle cx="43.5" cy="42" r="2.2" fill="%2317221a"/><path d="M55 32h7" stroke="%23f05a72" stroke-width="3" stroke-linecap="round"/><path d="M62 32l-4-4M62 32l-4 4" stroke="%23f05a72" stroke-width="2" stroke-linecap="round"/></svg>');
   transform: rotate(var(--head-rotation, 0deg));
 }
 
 .cell.apple::before {
   inset: 6%;
-  background-image: url("./assets/apple.svg");
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><defs><radialGradient id="apple-red" cx="25" cy="20" r="36" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="%23ffb0a3"/><stop offset=".45" stop-color="%23f25d50"/><stop offset="1" stop-color="%23b92f2c"/></radialGradient></defs><path fill="%236f4825" d="M34 7c3 7 1 13-3 18l-5-2c4-5 5-10 3-15l5-1Z"/><path fill="%236fc35d" d="M37 13c7-7 15-6 19-2-5 7-13 9-21 5 0 0 1-2 2-3Z"/><path fill="url(%23apple-red)" d="M31 22c6-7 23-5 25 11 3 20-11 28-20 22-2-1-5-1-7 0-9 6-23-2-20-22 2-16 19-18 25-11h-3Z"/><path fill="%23ffd2c9" d="M18 31c2-5 8-8 13-6-5 2-8 6-9 12-1 5-3 6-5 4-2-2-2-6 1-10Z" opacity=".7"/></svg>');
 }
 
 .message {
