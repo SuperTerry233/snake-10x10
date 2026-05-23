@@ -7,7 +7,7 @@
 直接用浏览器打开：
 
 ```text
-D:\.codex\snake-10x10\index.html
+https://superterry233.github.io/snake-10x10/
 ```
 
 ## 规则
