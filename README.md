@@ -10,16 +10,6 @@
 D:\.codex\snake-10x10\index.html
 ```
 
-## 公网部署
-
-这个项目可以直接部署到 GitHub Pages、Netlify 或 Vercel 等静态托管平台。部署后，把生成的网址发给别人，对方即可在浏览器中游玩。
-
-详细步骤见：
-
-```text
-D:\.codex\snake-10x10\DEPLOY.md
-```
-
 ## 规则
 
 - 游戏区域是 10x10 格子。
