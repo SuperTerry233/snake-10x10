@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="apple">
+  <defs>
+    <radialGradient id="apple-red" cx="25" cy="20" r="36" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffb0a3"/>
+      <stop offset=".45" stop-color="#f25d50"/>
+      <stop offset="1" stop-color="#b92f2c"/>
+    </radialGradient>
+  </defs>
+  <path fill="#6f4825" d="M34 7c3 7 1 13-3 18l-5-2c4-5 5-10 3-15l5-1Z"/>
+  <path fill="#6fc35d" d="M37 13c7-7 15-6 19-2-5 7-13 9-21 5 0 0 1-2 2-3Z"/>
+  <path fill="url(#apple-red)" d="M31 22c6-7 23-5 25 11 3 20-11 28-20 22-2-1-5-1-7 0-9 6-23-2-20-22 2-16 19-18 25-11h-3Z"/>
+  <path fill="#ffd2c9" d="M18 31c2-5 8-8 13-6-5 2-8 6-9 12-1 5-3 6-5 4-2-2-2-6 1-10Z" opacity=".7"/>
+</svg>
